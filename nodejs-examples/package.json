@@ -1,0 +1,18 @@
+{
+  "name": "sqs-fifo-medium-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable SQS FIFO examples for Medium article",
+  "type": "commonjs",
+  "scripts": {
+    "local:setup": "bash setup-localstack.sh",
+    "purge": "bash 07-purge-queues.sh",
+    "produce": "node 02-producer.js",
+    "consume": "node 03-consumer-long-poll.js",
+    "heartbeat": "node 05-visibility-heartbeat.js",
+    "harness": "node 06-end-to-end-harness.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.888.0"
+  }
+}
