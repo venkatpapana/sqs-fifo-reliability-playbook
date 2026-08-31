@@ -4,6 +4,10 @@ Runnable examples and notes for exploring SQS FIFO reliability patterns across N
 
 This repo pairs with the Medium article **"We Moved to SQS FIFO and Found the Real Failure Modes"** and keeps the code examples, runbooks, and screenshots aligned across both languages.
 
+## Published Article
+
+- Level Up Coding: [We Moved to SQS FIFO and Found the Real Failure Modes](https://levelup.gitconnected.com/we-moved-to-sqs-fifo-and-found-the-real-failure-modes-39cc20bb67f0)
+
 ## What’s inside
 
 - `nodejs-examples/` - Node.js scripts for local setup, producer, consumer, visibility heartbeat, end-to-end harness, and purge.
